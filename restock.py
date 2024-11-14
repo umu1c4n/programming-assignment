@@ -21,6 +21,8 @@ The function will also update the inventory_records (For restocking) for a  give
     
     if current_day == 0:
         restocked_units = 2000
+
+        
     if current_day % 7 == 0:
     
         restocked_units = 2000 - available_items
